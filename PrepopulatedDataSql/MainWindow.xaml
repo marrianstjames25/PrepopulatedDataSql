@@ -1,0 +1,43 @@
+﻿<Window x:Class="PrepopulatedDataSql.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrepopulatedDataSql"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+
+    <Border Background="#2e3137" CornerRadius="20" Margin="20">
+        <StackPanel Margin="20,20,20,10.5">
+            <Label Content="Sign Up" Foreground="White" FontSize="25" HorizontalAlignment="Center"/>
+
+
+            <Separator></Separator>
+
+
+            <Label Content="First Name" Foreground="White"/>
+            <TextBox x:Name="txtFirstName" Background="#545d6a" Foreground="white" FontSize="18"/>
+
+            <Label Content="Last Name" Foreground="White"/>
+            <TextBox x:Name="txtLastName" Background="#545d6a" Foreground="white" FontSize="18"/>
+
+            <Label Content="Email" Foreground="White"/>
+            <TextBox x:Name="txtEmail" Background="#545d6a" Foreground="white" FontSize="18"/>
+
+            <Label Content="Username" Foreground="White"/>
+            <TextBox x:Name="txtUsername" Background="#545d6a" Foreground="white" FontSize="18"/>
+
+            <Label Content="Password" Foreground="White"/>
+            <PasswordBox x:Name="PasswordBox" Background="#545d6a" Foreground="white" FontSize="18"/>
+
+
+            <Label Content="Repeat Password" Foreground="White"/>
+            <PasswordBox x:Name="RePasswordBox" Background="#545d6a" Foreground="white" FontSize="18"/>
+
+
+            <Button Content="Button" HorizontalAlignment="Center" Margin="90" VerticalAlignment="Top" RenderTransformOrigin="0.084,1.756" Height="43" Width="126" Click="Button_Click"/>
+            
+        </StackPanel>
+    </Border>
+
+</Window>
