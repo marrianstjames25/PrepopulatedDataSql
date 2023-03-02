@@ -8,11 +8,17 @@
         Title="PopulateData" Height="600" Width="400">
     <Grid>
 
-        <TextBlock x:Name="firstNameblock" Margin="128,77,128,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+        <TextBlock x:Name="firstNameblock" Margin="128,77,128,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA" FontSize="20" TextAlignment="Justify"/>
 
-        <TextBlock x:Name="lastNameblock" HorizontalAlignment="Center" Margin="0,172,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
-        <TextBlock  x:Name="emailblock" HorizontalAlignment="Center" Margin="0,279,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
-        <TextBlock  x:Name="passwordBlock" HorizontalAlignment="Center" Margin="0,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+        <TextBlock TextAlignment="Justify" FontSize="20" x:Name="lastNameblock" HorizontalAlignment="Center" Margin="0,172,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+        
+        
+        <TextBlock TextAlignment="Justify" FontSize="20" x:Name="emailblock" HorizontalAlignment="Center" Margin="0,279,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+        
+        
+        <TextBlock TextAlignment="Justify" FontSize="20" x:Name="passwordBlock" HorizontalAlignment="Center" Margin="0,375,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="144" Background="#FFFFDADA"/>
+        
+        
         <Button Content="Populate User" Margin="142,492,142,45" Click="Button_Click"/>
 
 
