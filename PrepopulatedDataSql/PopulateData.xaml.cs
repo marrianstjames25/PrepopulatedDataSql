@@ -41,7 +41,11 @@ namespace PrepopulatedDataSql
 
                 //Build our actual query 
 
-                string query = " select * from SignupTable_";
+
+                
+
+
+                string query = " select * from SignupTable_ where ID = '"+this.firstNameblock.Text + "'";
                 //Establish a sql command
 
                 SqlCommand cmd = new SqlCommand(query, sqlCon);
